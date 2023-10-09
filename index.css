@@ -70,6 +70,12 @@ form .input1{
     font-size: smaller;
 
 }
+/********************************* KATEGORİ NAVBAR *************************/
+
+.kategori{
+    display: flex;
+    list-style: none;
+}
 
 
 @media screen and (max-width:600px) {
