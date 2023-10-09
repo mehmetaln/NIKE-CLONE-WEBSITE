@@ -15,3 +15,27 @@
    display: flex;
    justify-content: start;
 }
+
+form .input1{
+    border-radius: 8px;
+    background-color: transparent;
+    height: 56px;
+    border: 2px  solid red;
+    top: 8px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+ 
+#btncontinue{
+    width: 75px;
+    height: 45px;
+    border-radius: 25px;
+    margin-top: 1rem;
+    position: relative;
+    right: -320px;
+    
+}
+
+/* ********************************************************** *\
