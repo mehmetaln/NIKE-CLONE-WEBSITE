@@ -135,10 +135,19 @@ nav{
 .bi-person{
     display: none;
 }
+
+/*************** KATEGORİ NAVBAR END ******************************/
+
+
+
+
+
+
 @media screen and (max-width:600px) {
     .mybo{
         display: none;
     }
+    /********** NAVBAR MEDİA SCREEN********** */
     .kategori{
         display: none;
     }
@@ -168,6 +177,7 @@ nav{
         right:120px;
         top: 9px;
         font-size: large;
+    
     }
     .bi-person{
         display: block;
@@ -176,5 +186,6 @@ nav{
         top: 4px;
         font-size: x-large;
     }
+    /************ NAVBAR MEDİA SCREEN END  *************/
 }
 
