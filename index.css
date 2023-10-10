@@ -73,7 +73,8 @@ form .input1{
 /********************************* KATEGORİ NAVBAR *************************/
 
 .kategori{
-
+display: grid;
+place-items: center;
 }
 .kategori ul {
     display: flex;
