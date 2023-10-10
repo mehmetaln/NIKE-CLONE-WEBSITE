@@ -154,6 +154,9 @@ nav{
  background-color:rgb(250, 247, 247);
 display: grid;
 place-items:center ;
+height: auto;
+width:auto;
+padding-top: .7rem;
 color:black;
 font-weight: 600;
 }
