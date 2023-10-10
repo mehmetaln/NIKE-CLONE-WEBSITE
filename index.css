@@ -72,6 +72,10 @@ form .input1{
 }
 /********************************* KATEGORİ NAVBAR *************************/
 
+nav{
+    display: grid;
+    place-items: center;
+}
 .kategori{
 display: grid;
 place-items: center;
@@ -84,9 +88,38 @@ place-items: center;
 .kategori ul li{
     margin-left: 1rem;
     font-weight: 700;
-    
+
 }
 
+.searchand{
+    
+}
+.div-container{
+    position: relative;
+  
+}
+.div-container input{
+    border-radius: 50px;
+    border: transparent;
+    background-color: rgb(248, 243, 243);
+    margin-right: 6rem;
+}
+.div-container .fa-magnifying-glass{
+    position: absolute ;
+    left: 10px;
+    top: 20%;
+}
+::placeholder {
+    color:#8a94b1 !important;
+    text-align: center;
+
+}
+
+.searchand input{
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+}
 
 @media screen and (max-width:600px) {
     .mybo{
