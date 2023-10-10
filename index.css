@@ -201,6 +201,12 @@ font-weight: 600;
     border: 2 px solid red;
 }
 
+/************************************ ÜRÜN-SLİDER-PARENT ******/
+.foto{
+    width: 250px;
+    height: 250px;
+}
+
 
 @media screen and (max-width:600px) {
     .mybo{
