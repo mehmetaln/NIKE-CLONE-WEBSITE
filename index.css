@@ -125,18 +125,56 @@ nav{
     top: .6rem;
     font-size: large;
 }
+.bi-list{
+    display: none;
+}
+.bi-search{
+    display: none;
+}
+
+.bi-person{
+    display: none;
+}
 @media screen and (max-width:600px) {
     .mybo{
         display: none;
     }
+    .kategori{
+        display: none;
+    }
+    .div-container{
+        display: none;
+    }
+    .bi-list{
+        display: block;
+        position: absolute;
+        right:1px;
+        top: 4px;
+        font-size: x-large;
+    }
+    .i-container .fa-heart{
+        display: none;
+    }
+    .i-container{
+        top: 1rem;
+        position: absolute;
+    }
+   .i-container .fa-bag-shopping{
+        font-size: x-large;
+    }
+    .bi-search{
+        display: block;
+        position: absolute;
+        right:120px;
+        top: 9px;
+        font-size: large;
+    }
+    .bi-person{
+        display: block;
+        position: absolute;
+        right:80px;
+        top: 4px;
+        font-size: x-large;
+    }
 }
-.kategori{
-    display: none;
-}
-.div-container input{
-    display: none;
 
-}
-.div-container i{
-    display: ;
-}
