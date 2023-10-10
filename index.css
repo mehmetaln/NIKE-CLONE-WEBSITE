@@ -4,6 +4,9 @@
     padding: 0;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .parent{
 
     width: 25rem;
@@ -55,8 +58,9 @@ form .input1{
     margin-left: 3rem;
 }
 .mybo ul {
-    margin-right: 3rem; 
+    margin-right: 2rem; 
     margin-top: 5px;   
+
 }
 .mybo ul li {
     list-style: none;
@@ -77,6 +81,7 @@ nav{
     place-items: center;
 }
 .kategori{
+    margin-left: 8rem;
 }
 .kategori ul {
     display: flex;
@@ -85,7 +90,12 @@ nav{
 }
 .kategori ul li{
     margin-left: 1rem;
-    font-weight: 700;
+}
+.kategori ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    font-size: larger;
 }
 .div-container{
     position: relative;
@@ -141,21 +151,52 @@ nav{
 /*************** TEXT-CAROUSEL-PARENT ****************************/
 
 .carousel-parent{
-    background-color:rgb(250, 247, 247);
+ background-color:rgb(250, 247, 247);
 display: grid;
 place-items:center ;
 color:black;
 font-weight: 600;
 }
+.carousel-parent p{
+    font-size: small;
+}
 .carousel-parent p a{
     color: black;
     font-weight: 700;
+    font-size: 20;
 }
 
 /*************** TEXT-CAROUSEL-PARENT END ****************************/
 
-
-
+.aciklamaparent p{
+    color: black;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+.aciklamaparent h1{
+    font-size: 65px;
+    color: black;
+    font-weight:900;
+}
+.aciklamaparent button{
+    width: 90px;
+    height: 40px;
+    background: black;
+    color: white;
+    border-radius: 20px;
+    margin-top: 2.3rem;
+    margin-bottom: 3rem
+}
+/******************** VİDEO PARENT *************/
+.video-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 76.5vh;
+    width: 100%;
+    border: 2 px solid red;
+}
 
 
 @media screen and (max-width:600px) {
@@ -202,8 +243,13 @@ font-weight: 600;
         font-size: x-large;
     }
     /************ NAVBAR MEDİA SCREEN END  *************/
-
-    /************ TEXT-CAROUSEL-PARENT  ****************/
-
-}
+    /************ CAROUSEL-PARENT **********************/
+    .carousel-item{
+        font-size: small;
+    }   
+    /************ ACİKLAMA-PARENT  ****************/
+  .aciklamaparent h1{
+    font-size: 40px;
+  }
+}   
 
