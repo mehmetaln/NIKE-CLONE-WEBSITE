@@ -223,12 +223,16 @@ font-weight: 600;
     width: calc( (100% / 3) );
 
 }
+.box-img-parent ul .li-box p{
+    display: flex;
+    justify-content: last baseline;
+}
 
 .box-img-parent ul .li-box li {
     margin: 1rem 1rem;
-    text-align: center;
     background-color: #f8f8fa;
     height: 55vh;
+    text-align: center;
 
 }
 .box-img-parent h3{
