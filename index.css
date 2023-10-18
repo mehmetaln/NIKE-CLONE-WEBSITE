@@ -546,7 +546,29 @@ footer{
 
 /*********************** FOOTER END *************************/
 
-
+/******************************** PRODUCT ******************************/
+.boxparent{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+}
+#box1{
+    width: 100px;
+    height: 50vh;
+    border: 2px solid red;
+}
+#box2{
+    width: 400px;
+    height: 50vh;
+    border: 2px solid green;
+}
+#box3{
+    width: 350px;
+    height: 50vh;
+    border: 2px solid blue;
+}
+/******************************** PRODUCT-END *************************/
 
 
 /********************************************************************* MOBİL ************************************************************************************************/
@@ -720,15 +742,9 @@ footer{
     margin-left: -7rem;
     padding: .1rem;
 }
-.lists ul li  {
-}
 
 
 /************************ FOOTER-END ***********************/
-
-
-
-
 
 
 }
