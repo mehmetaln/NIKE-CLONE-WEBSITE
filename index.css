@@ -470,6 +470,7 @@ margin-top: 1rem;
   
     font-size: medium;
 }
+/**************************************** MİNİ MENU END **********************************/
 
 
 /************************ mobilminimenu *****************/
@@ -478,7 +479,38 @@ margin-top: 1rem;
 }
 /************************ mobilminimenu end *****************/
 
-/**************************************** MİNİ MENU END **********************************/
+/************************ FOOTTER ***************************/
+
+footer{
+    
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+}
+.lists ul {
+    margin-top: 3rem;
+}
+.lists ul li {
+    list-style: none;
+    margin-top: 1rem;
+    font-size: small;
+}
+.lists{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    background-color: black;
+    color: gray;
+}
+.lists .title2{
+    color: white;
+}
+
+
+/*********************** FOOTER END *************************/
+
+
+
 
 /********************************************************************* MOBİL ************************************************************************************************/
 
