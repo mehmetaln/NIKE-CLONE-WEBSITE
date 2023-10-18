@@ -368,6 +368,74 @@ font-weight: 600;
 }
 /******************************************** BOX2- İMG2- PARENT3 - END *********************/
 
+/******************************************* SLİDER3 ****************************************/
+    .slider3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5rem;
+        width: 100%;
+        height: 300px;
+        border: 1px solid red;
+    }
+/******************************************* SLİDER3 END ************************************/
+
+
+/****************************************** BOX-İMG-PARENT-4 *******************************/
+.box-img-parent4{
+    margin-top: 3rem;
+}
+.box-img-parent4 h3 {
+
+    margin-left: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.fotodiv{
+    display: flex;
+    justify-content: space-around;
+    width: calc(100/2);
+}
+.fotodiv .firstfoto{
+    width: 48%;
+    height: 400px;
+    background-image: url(img/firstfoto.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ #nikeapp{
+    position: relative;
+    top: 18rem;
+    left: 5rem;
+    border-radius: 20px;
+    border: none;
+    padding: .5rem ;
+    width: 100px;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+}
+#nikeapph{
+    position: relative;
+    top: 16rem;
+    left: 5rem;
+    color :rgb(255, 255, 255);
+    font-weight: bold;
+}
+.fotodiv .secondfoto{
+    width: 48%;
+    height: 400px;
+    background-image: url(img/secondfoto.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/****************************************** BOX-İMG-PARENT-4-END ***************************/
 
 
 
@@ -472,6 +540,9 @@ font-weight: 600;
 .box-img-parent3{
     margin-top: 5rem;
 }
+.box-img-parent3 h3{
+    margin-left: .8rem;
+}
  #yedi{
     width: 90%;
     height: 65vh;
@@ -489,6 +560,27 @@ font-weight: 600;
 
 /************************** BOX-İMG-PARENT3-END**********/
 
+/************************* BOX-İMG-PARENT-4 *************/
+.box-img-parent4 .fotodiv{
+    display: block;
+}
+.fotodiv .firstfoto{
+    width: 95%;
+    margin-left: .5rem;
+}
+#nikeapp{
+    position: relative;
+    left: 2rem;
+}
+#nikeapph{
+    position: relative;
+    left: 2rem;
+}
 
+.fotodiv .secondfoto{
+    width: 95%;
+    margin-left: .5rem;
+}
+/************************* BOX-İMG-PARENT-4-END *********/
 
 }
