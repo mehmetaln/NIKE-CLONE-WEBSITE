@@ -241,12 +241,37 @@ font-weight: 600;
 }
  /*******************************  BOX - İMG- PARENT END *************************************/
  /******************************* BOX2- İMG2- PARENT2 ****************************************/
- 
 
 
 
+.box-img-parent2 ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
 
+}
+.box-img-parent2 ul .li-box2{
+    width: calc( (100% / 4) );
 
+}
+.box-img-parent2 ul .li-box2 p{
+    display: flex;
+    justify-content: last baseline;
+}
+
+.box-img-parent2 ul .li-box2 li {
+    margin: 1rem 1rem;
+    background-color: rgb(211, 175, 108);
+    height: 55vh;
+    text-align: center;
+
+}
+.box-img-parent2 h3{
+    margin-left: 2.8rem;
+    margin-top: 3rem;
+}
+
+/******************************************** BOX2- İMG2- PARENT2 - END *********************/
 
 
 
@@ -308,11 +333,37 @@ font-weight: 600;
   }
   /****************** BOX-İMG-PARENT **************/
 
-  .box-img-parent ul .li-box li{
-        
-    width: 300px;
-        height: 30vh;
+  #sifir{
+        width: 100%;
     }
+    .box-img-parent ul .li-box .pdiv p{
+        display: block;
+    }
+#bir{
+    display: none;
 
-}   
+}
+#iki{
+    display: none;
+}
 
+/********************* BOX-İMG-PARENT 2 ********/
+#uc{
+    width: 100%;
+}
+#dort {
+    display: none;
+}
+#bes{
+    display: none;
+}
+#alti{
+    display: none;
+}
+
+
+
+
+
+
+}
