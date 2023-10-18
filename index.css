@@ -484,11 +484,22 @@ margin-top: 1rem;
 footer{
     
     width: 100%;
-    height: 50vh;
+    height: 45vh;
     background-color: black;
 }
+.lists{
+    margin-left: 10rem;
+}
+.lists .betwen li{
+    display: inline-block;
+    margin-right: 1rem;
+    font-size:x-large;
+    position: relative;
+    right: 8rem;
+}   
 .lists ul {
     margin-top: 3rem;
+    margin-left: 6rem;
 }
 .lists ul li {
     list-style: none;
@@ -503,6 +514,28 @@ footer{
     color: gray;
 }
 .lists .title2{
+    color: white;
+}
+
+.lists ul li:hover{
+    color: white;
+}
+
+/**********lists2**********/
+.lists2{
+    display: flex;
+    justify-content: space-around;
+}
+.lists2 ul{
+    margin-top: 6rem;
+}
+.lists2 ul li{
+    display: inline-block;
+    color: gray;
+    margin-left: 1rem;
+}
+
+.lists2 ul li:hover{
     color: white;
 }
 
