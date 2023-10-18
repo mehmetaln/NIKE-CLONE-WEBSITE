@@ -273,7 +273,54 @@ font-weight: 600;
 
 /******************************************** BOX2- İMG2- PARENT2 - END *********************/
 
+/******************************************** BOX3- İMG3- PARENT3 *********************/
 
+.box-img-parent3 ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+}
+.box-img-parent3 ul .li-box3{
+    width: 24%;
+    height: 50vh;
+
+}
+.box-img-parent3 ul .li-box3 p{
+    display: flex;
+    justify-content: last baseline;
+}
+
+.box-img-parent3 ul .li-box3 li {
+    margin: 1rem 1rem;
+    background-color: rgb(7, 5, 0);
+    height: 55vh;
+    text-align: center;
+
+}
+.box-img-parent3 h3{
+    margin-left: 2.8rem;
+    margin-top: 3rem;
+}
+
+.box-img-parent3 .li-box3 li #button1{
+    border-radius: 20px;
+    background-color: white;
+    color: rgb(54, 52, 52);
+    text-align: center;
+    width: 100px;
+    height: 40px;
+}
+.box-img-parent3 .li-box3 li #button2{
+    border-radius: 20px;
+    background-color: white;
+    color: rgb(54, 52, 52);
+    text-align: center;
+    width: 200px;
+    height: 40px;
+
+}
+/******************************************** BOX2- İMG2- PARENT3 - END *********************/
 
 
 
@@ -332,12 +379,15 @@ font-weight: 600;
     font-size: 40px;
   }
   /****************** BOX-İMG-PARENT **************/
+  .box-img-parent{
+    margin-left: -1.9rem;
+  }
 
   #sifir{
         width: 100%;
     }
-    .box-img-parent ul .li-box .pdiv p{
-        display: block;
+    .box-img-parent ul .li-box .pdiv .pl{
+        display: none;
     }
 #bir{
     display: none;
@@ -348,6 +398,10 @@ font-weight: 600;
 }
 
 /********************* BOX-İMG-PARENT 2 ********/
+.box-img-parent2{
+    margin-top: 3.5rem;
+    margin-left: -1.9rem;
+}
 #uc{
     width: 100%;
 }
@@ -360,6 +414,7 @@ font-weight: 600;
 #alti{
     display: none;
 }
+/************************** BOX-İMG-PARENT2 END **********/
 
 
 
