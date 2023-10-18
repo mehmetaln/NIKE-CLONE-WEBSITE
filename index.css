@@ -549,24 +549,28 @@ footer{
 /******************************** PRODUCT ******************************/
 .boxparent{
     display: flex;
-    align-items: center;
-    text-align: center;
-    margin-top: 3rem;
+    justify-content: center; /* Yatayda ortala */
+    align-items: center; /* Dikeyde ortala */
+    margin-top: 5rem;
 }
 #box1{
     width: 100px;
     height: 50vh;
-    border: 2px solid red;
+    margin-right: 1rem;
 }
 #box2{
     width: 400px;
     height: 50vh;
-    border: 2px solid green;
+    margin-right: 1rem;
 }
 #box3{
     width: 350px;
     height: 50vh;
     border: 2px solid blue;
+    margin-right: 1rem;
+}
+.box1 ul li {
+    list-style: none;
 }
 /******************************** PRODUCT-END *************************/
 
