@@ -179,6 +179,8 @@ font-weight: 600;
 
 /*************** TEXT-CAROUSEL-PARENT END ****************************/
 
+/*************************** AÇIKLAMA PARENT**************************/
+
 .aciklamaparent p{
     color: black;
     font-weight: 700;
@@ -198,6 +200,8 @@ font-weight: 600;
     margin-top: 2.3rem;
     margin-bottom: 3rem
 }
+/**********************************AÇIKLAMA-PARENT-END *****************/
+
 /******************** VİDEO PARENT *************/
 .video-container {
     margin: 0;
