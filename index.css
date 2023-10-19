@@ -557,6 +557,7 @@ footer{
     width: 100px;
     height: 100vh;
     margin-right: 1rem;
+    
 }
 #box2{
     width: 380px;
@@ -565,14 +566,16 @@ footer{
 }
 #box3{
     width: 386px;
-    height: 100vh;
+    height: 150vh;
     margin-left: 5rem;
     line-height: .8rem;
     justify-content: space-between;
+   
 }
 #box1 ul li {
 list-style: none;
-    
+margin-bottom: 1rem;
+
 }
 .box h1, .box p{
     color: black;
