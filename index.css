@@ -580,24 +580,26 @@ list-style: none;
 
 .ikidiv{
     display: flex;
-    justify-content:space-evenly;
-    margin-top: 4rem;
-
+    font-size: medium;
+}
+.ikidiv p{
+margin-right: 2rem;
+}
+ .size .sizebox:hover{
+    border: 1px solid black;
 }
 .size{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    height: 25vh;
+    justify-content: flex-start;
 }
 .size .sizebox{
     width: 110px;
     height: 45px;
     border: .5px solid rgba(128, 128, 128, 0.5);
     text-align: center;
-    margin-left: 1rem;
     margin-bottom: .5rem;
+    margin-right: .5rem;
     border-radius: 5px;
     padding: 1rem;
     font-weight: 400;
@@ -605,9 +607,8 @@ list-style: none;
     color: black;
 }
 .sizeall{
-    position: relative;
-    right: 5rem;
-
+    margin-top: 4rem;
+    margin-left: -4.5   rem;
 }
 /******************************** PRODUCT-END *************************/
 
