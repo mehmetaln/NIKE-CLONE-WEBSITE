@@ -610,6 +610,22 @@ margin-right: 2rem;
     margin-top: 4rem;
     margin-left: -4.5   rem;
 }
+.btnparent{
+}
+.sepet{
+
+    width: 350px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+}
+.fav{
+    width: 350px;
+    height: 40px;
+    border-radius: 20px;
+}
+
 /******************************** PRODUCT-END *************************/
 
 
