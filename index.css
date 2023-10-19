@@ -549,29 +549,31 @@ footer{
 /******************************** PRODUCT ******************************/
 .boxparent{
     display: flex;
-    justify-content: center; /* Yatayda ortala */
-    align-items: center; /* Dikeyde ortala */
-    margin-top: 5rem;
+    justify-content: center; 
+    height: 138vh;
+    margin-top: 3rem;
+    border: 2px solid red;
 }
 #box1{
     width: 100px;
-    height: 50vh;
+    height: 100vh;
     margin-right: 1rem;
 }
 #box2{
-    width: 400px;
-    height: 50vh;
+    width: 380px;
+    height: 100vh;
     margin-right: 1rem;
 }
 #box3{
-    width: 425px;
-    height: 50vh;
-    margin-left: 3rem;
+    width: 386px;
+    height: 100vh;
+    margin-left: 5rem;
     line-height: .8rem;
+    justify-content: space-between;
 }
-.box ul li {
+#box1 ul li {
 list-style: none;
-
+    
 }
 .box h1, .box p{
     color: black;
@@ -610,22 +612,26 @@ margin-right: 2rem;
     margin-top: 4rem;
     margin-left: -4.5   rem;
 }
-.btnparent{
-}
 .sepet{
 
     width: 350px;
-    height: 40px;
-    border-radius: 20px;
+    height: 60px;
+    border-radius: 30px;
     color: white;
     background-color: black;
+    margin-bottom: .5rem;
+    margin-left: -2rem;
 }
 .fav{
     width: 350px;
-    height: 40px;
-    border-radius: 20px;
+    height: 60px;
+    border-radius: 30px;
+    margin-left: -2rem;
+    background-color: white;
+    color: black;
 }
-
+.textdiv{
+}
 /******************************** PRODUCT-END *************************/
 
 
