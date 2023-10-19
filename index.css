@@ -552,7 +552,6 @@ footer{
     justify-content: center; 
     height: 138vh;
     margin-top: 3rem;
-    border: 2px solid red;
 }
 #box1{
     width: 100px;
@@ -632,7 +631,13 @@ margin-right: 2rem;
 }
 .textdiv{
 }
+/******************************** PRODUCT-END *************************/
 
+
+/***************************************************** USER-PHOTO KISMI **************************/
+.yorumparent{
+    margin-top: 2rem;
+}
 .photobutton{
     border-radius: 20px;
     width: 150px;
@@ -645,9 +650,9 @@ margin-right: 2rem;
     border: black;
 }
 .userphoto{
-    margin-top: 2rem;
     display: flex;
     justify-content: space-between;
+    margin: 2rem;
 }
 .userphoto .userphoto1{
     width: 23%;
@@ -659,7 +664,7 @@ margin-right: 2rem;
 
 }
 .userphoto .userphoto2{
-    width: 24%;
+    width: 23%;
     height: 45vh;
     background-image: url(img/userphoto2.webp);
     background-position: center;
@@ -668,7 +673,7 @@ margin-right: 2rem;
 
 }
 .userphoto .userphoto3{
-    width: 24%;
+    width: 23%;
     height: 45vh;
     background-color:whitesmoke;
     display: flex;
@@ -677,15 +682,30 @@ margin-right: 2rem;
 }
 .userphoto .userphoto3 p{
     text-align: center;
+    font-size: x-large;
+    font-weight: 700;
 }
 .userphoto .userphoto4{
-    width: 24%;
+    width: 23%;
     height: 45vh;
     background-color: whitesmoke;
     margin-right: 2rem;
 
 }
-/******************************** PRODUCT-END *************************/
+
+/*********************************************** PRODUCT-END KISMI SLİDER*****************************/
+.productendkismi{
+    display: flex;
+    justify-content: space-between;
+
+}
+.slider10a{
+    width: 32%;
+}
+/*********************************************** PRODUCT-END KISMI SLİDER- END*****************************/
+
+/***************************************************** USER-PHOTO KISMI **************************/
+
 
 
 /********************************************************************* MOBİL ************************************************************************************************/
