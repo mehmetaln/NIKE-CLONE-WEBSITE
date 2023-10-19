@@ -632,6 +632,59 @@ margin-right: 2rem;
 }
 .textdiv{
 }
+
+.photobutton{
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: .5px solid rgba(128, 128, 128, 0.5);
+}
+.photobutton:hover{
+    border: black;
+}
+.userphoto{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.userphoto .userphoto1{
+    width: 23%;
+    height: 45vh;
+    background-image: url(img/userphoto1.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.userphoto .userphoto2{
+    width: 24%;
+    height: 45vh;
+    background-image: url(img/userphoto2.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.userphoto .userphoto3{
+    width: 24%;
+    height: 45vh;
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.userphoto .userphoto3 p{
+    text-align: center;
+}
+.userphoto .userphoto4{
+    width: 24%;
+    height: 45vh;
+    background-color: whitesmoke;
+    margin-right: 2rem;
+
+}
 /******************************** PRODUCT-END *************************/
 
 
