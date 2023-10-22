@@ -6,13 +6,17 @@
 body{
     height: 5000px;
     overflow-x: hidden;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Arimo', sans-serif;   
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Caprasimo', serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Martian Mono', monospace;
 }
 img{
     max-width: 100%;
-}
-
-body{
-    font-family: Arial, Helvetica, sans-serif;
 }
 .parent{
 
@@ -20,13 +24,11 @@ body{
     height: 25rem;
 }
 /* ********************LOGİN CSS************************** */
-
 .logoparent{
    display: flex;
    justify-content: space-between;
    align-items: center;
 }
-
 form .input1{
     border-radius: 8px;
     background-color: transparent;
@@ -37,8 +39,6 @@ form .input1{
     justify-content: flex-start;
     align-items: center;
 }
-
- 
 #btncontinue{
     width: 75px;
     height: 45px;
@@ -149,7 +149,6 @@ nav{
 .bi-search{
     display: none;
 }
-
 .bi-person{
     display: none;
 }
@@ -157,7 +156,6 @@ nav{
 /*************** KATEGORİ NAVBAR END ******************************/
 
 /*************** TEXT-CAROUSEL-PARENT ****************************/
-
 .carousel-parent{
  background-color:rgb(250, 247, 247);
 display: grid;
@@ -176,12 +174,10 @@ font-weight: 600;
     font-weight: 700;
     font-size: 20;
 }
-
 /*************** TEXT-CAROUSEL-PARENT END ****************************/
 
 /*************************** AÇIKLAMA PARENT**************************/
-
-.aciklamaparent p{
+/* .aciklamaparent p{
     color: black;
     font-weight: 700;
     margin-top: 2rem;
@@ -199,7 +195,7 @@ font-weight: 600;
     border-radius: 20px;
     margin-top: 2.3rem;
     margin-bottom: 3rem
-}
+} */
 /**********************************AÇIKLAMA-PARENT-END *****************/
 
 /******************** VİDEO PARENT *************/
@@ -223,7 +219,22 @@ font-weight: 600;
     color: white;
     left: 2%;
 }
-
+ .disarisi .disarisi-text h1{
+    font-weight: 900   ;
+    font-size: 60px;
+}
+.disarisi .disarisi-text h3{
+    font-size: large;
+}
+.disarisi .disarisi-text button{
+    background-color: white;
+    color: rgb(51, 51, 51);
+    border-radius: 30px;
+    height: 35px;
+    width: 90px;
+    border: none;
+    font-weight: bold;
+}
 /************************************ ÜRÜN-SLİDER-PARENT ******/
 .foto{
     width: 250px;
@@ -259,9 +270,8 @@ font-weight: 600;
     margin-top: 3rem;
 }
  /*******************************  BOX - İMG- PARENT END *************************************/
+
  /******************************* BOX2- İMG2- PARENT2 ****************************************/
-
-
 
 .box-img-parent2 ul {
     display: flex;
@@ -293,7 +303,6 @@ font-weight: 600;
 /******************************************** BOX2- İMG2- PARENT2 - END *********************/
 
 /******************************************** BOX3- İMG3- PARENT3 *********************/
-
 .box-img-parent3 ul {
     display: flex;
     justify-content: space-between;
@@ -360,7 +369,6 @@ font-weight: 600;
     margin-left: 2.8rem;
     margin-top: 3rem;
 }
-
 .box-img-parent3 .li-box3 li #button1{
     border-radius: 20px;
     background-color: white;
@@ -448,12 +456,9 @@ font-weight: 600;
     background-size: cover;
     background-repeat: no-repeat;
 }
-
-
 /****************************************** BOX-İMG-PARENT-4-END ***************************/
 
 /****************************************** MİNİ-MENU *************************************/
-
 .minimenu{
     display: flex;
     justify-content: space-evenly;
@@ -486,7 +491,6 @@ margin-top: 1rem;
     font-size: medium;
 }
 /**************************************** MİNİ MENU END **********************************/
-
 
 /************************ mobilminimenu *****************/
 .mobilmenu{
@@ -531,11 +535,9 @@ footer{
 .lists .title2{
     color: white;
 }
-
 .lists ul li:hover{
     color: white;
 }
-
 /**********lists2**********/
 .lists2{
     display: flex;
@@ -553,7 +555,7 @@ footer{
 .lists2 ul li:hover{
     color: white;
 }
-
+/*********************** lİST2 END *************/
 
 /*********************** FOOTER END *************************/
 
