@@ -203,7 +203,7 @@ font-weight: 600;
 /**********************************AÇIKLAMA-PARENT-END *****************/
 
 /******************** VİDEO PARENT *************/
-.video-container {
+.video-container .disarisi {
     margin: 0;
     padding: 0;
     display: flex;
@@ -211,6 +211,17 @@ font-weight: 600;
     height: 76.5vh;
     width: 100%;
     border: 2 px solid red;
+    background-image: url(img/disarisi2.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.disarisi .disarisi-text{
+    text-align: start;
+    position: absolute;
+    top: 70%;
+    color: white;
+    left: 2%;
 }
 
 /************************************ ÜRÜN-SLİDER-PARENT ******/
