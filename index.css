@@ -854,6 +854,7 @@ margin-right: 2rem;
 .fotodiv .firstfoto{
     width: 95%;
     margin-left: .5rem;
+    margin-bottom: 1rem;
 }
 #nikeapp{
     position: relative;
@@ -896,6 +897,11 @@ margin-right: 2rem;
     padding: .1rem;
 }
 
+    .betwen{
+        position: relative;
+        top: 100%;
+        left: 25%;
+    }
 
 /************************ FOOTER-END ***********************/
 
