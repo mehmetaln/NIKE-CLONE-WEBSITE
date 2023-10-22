@@ -899,5 +899,24 @@ margin-right: 2rem;
 
 /************************ FOOTER-END ***********************/
 
+/*********************** VİDEO  PARENT **************************/
+
+.video-container .disarisi{
+width: 100%;
+height: 65vh;    
+background-image: url(img//dısarisi.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.video-container .disarisi .disarisi-text {
+    position: absolute;
+    top: 60%;
+
+}
+.video-container .disarisi .disarisi-text h1{
+    font-size: 40px;
+
+/*********************** VİDEO PARENT END **********************/
 
 }
