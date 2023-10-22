@@ -729,6 +729,82 @@ margin-right: 2rem;
 
 /********************************************************************* MOBİL ************************************************************************************************/
 
+
+
+/**************************************** SEPET KISMI **********************/
+
+.divparentsepet{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+}
+ .sepeturun{
+    width: 48%;
+    height: 40vh;
+    }
+
+.sepetozet{
+    width: 35%;
+    height: 40vh;
+}
+
+.sepetozet {
+    color: black;
+    font-weight: 600;
+}
+.buttonparentsepet button{
+    display: block;
+    border-radius: 30px;
+    height: 60px;
+    width:100%;
+    margin-bottom: 1rem;
+    border: none;
+    text-align: center;
+}
+.buttonparentsepet button a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+
+
+/* 
+#sepet-tablo {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+#sepet-tablo th, #sepet-tablo td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#sepet-tablo th {
+    background-color: #f2f2f2;
+}
+
+#toplam-fiyat {
+    font-weight: bold;
+} */
+
+
+
+/**************************************** SEPET KISMI END *******************/
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:600px) {
     body{
         overflow-x: hidden;
