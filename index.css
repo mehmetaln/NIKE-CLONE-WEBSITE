@@ -4,7 +4,6 @@
     padding: 0;
 }
 body{
-    height: 5000px;
     overflow-x: hidden;
     font-family: 'Anton', sans-serif;
     font-family: 'Arimo', sans-serif;   
@@ -152,6 +151,16 @@ nav{
 .bi-person{
     display: none;
 }
+.main li ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+.main li ul li{
+    display: none;
+}
+
 
 /*************** KATEGORİ NAVBAR END ******************************/
 
@@ -236,16 +245,16 @@ font-weight: 600;
     font-weight: bold;
 }
 /************************************ ÜRÜN-SLİDER-PARENT ******/
-/* .foto{
+.foto{
     width: 250px;
     height: 250px;
 } */
 
-/* .carousel-item{
+.carousel-item{
     width: 100%;
     height:100rem;
 
-} */
+}
 /******************************** BOX-İMG-PARENT *************************/
 
 .box-img-parent ul {
