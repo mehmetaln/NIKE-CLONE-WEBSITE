@@ -151,15 +151,20 @@ nav{
 .bi-person{
     display: none;
 }
-.main li ul{
-    padding: 0;
+ul{
     margin: 0;
+    padding: 0;
     list-style: none;
-    display: flex;
 }
-.main li ul li{
+
+ul#main li ul li{
     display: none;
 }
+ul#main li ul{
+    float: left;
+
+}
+
 
 
 /*************** KATEGORİ NAVBAR END ******************************/
