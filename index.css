@@ -441,14 +441,14 @@ font-weight: 600;
         margin-bottom: 2rem;
     }
     .slider3img img{
-        width: 25%;
+        width: 23%;
     }
 /******************************************* SLİDER3 END ************************************/
 
 
 /****************************************** BOX-İMG-PARENT-4 *******************************/
 .box-img-parent4{
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 .box-img-parent4 h3 {
 
@@ -1041,4 +1041,7 @@ background-repeat: no-repeat;
 }
 /*********************** VİDEO PARENT END **********************/
 
+.slider3{
+    display: none;
+}
 }
