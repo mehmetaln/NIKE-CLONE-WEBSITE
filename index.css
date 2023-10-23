@@ -92,8 +92,9 @@ nav{
 }
 .kategori ul {
     display: flex;
-    justify-content: space-between;
     list-style: none;
+    width: 200px;
+    justify-content: center;
 }
 .kategori ul li{
     margin-left: 1rem;
@@ -151,34 +152,36 @@ nav{
 .bi-person{
     display: none;
 }
-ul li#main ul li ul{
-    display: block;
-    margin-top: 3rem;
+
+ul li#main1{
+    
 }
- ul li#main ul li{
+ul li#main1 ul li{
+    margin-top: 1rem;
+}
+ul li#main1 ul li ul{
+    display: block;
+    margin-top: 2rem;
+}
+ ul li#main1 ul li{
     display: none;
     position: absolute;
-    left: -47px;
+    left: -40px;
     top: 0;
 }
 
- ul li#main ul li{
+ ul li#main1 ul li{
     position: relative;
 }
- ul li#main:hover ul li  {
+ ul li#main1:hover ul li  {
     display: block;
-} 
-
-
-
-
-
-
-
-ul li#main ul li ul li{
-    color: gray;
 }
-ul li#main ul li ul li:hover{
+ul li#main1 ul li ul li{
+    color: gray;
+    font-size: small;
+    line-height: .5rem;
+}
+ul li#main1 ul li ul li:hover{
     color: black;
 }
 
