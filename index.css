@@ -93,8 +93,7 @@ nav{
 .kategori ul {
     display: flex;
     list-style: none;
-    width: 200px;
-    justify-content: center;
+    
 }
 .kategori ul li{
     margin-left: 1rem;
